@@ -1,6 +1,6 @@
 # Cpanel Email Hosting on Exabytes with Main Site on Digital Ocean
 
-If you are looking to have your email service hosted on cPanel while having your main website hosted on another server in Digital Ocean, this might be the right guide for you. I have been struggling with not being able to send/receive email with the droplet in Digital Ocean. Therefore, I got an email-ready with cPanel shared hosting from Exabytes to handle the email services. The following is what I did. Hope it will help you somehow. If you have better idea or you see anything that I did is wrong, feel free to point it out. 
+If you are looking to have your email service hosted on cPanel while having your main website hosted on another server in Digital Ocean, this might be the right guide for you. I have been struggling with not being able to send/receive emails with the droplet in Digital Ocean. Therefore, I got an email-ready with cPanel shared hosting from Exabytes to handle the email services. The following is what I did. Hope it will help you somehow. If you have a better idea or you see anything that I did is wrong, feel free to point it out. 
 
 ## What Do I Have?
 
@@ -10,7 +10,7 @@ If you are looking to have your email service hosted on cPanel while having your
 
 ## What Should be Done?
 
-1. In your domain registra, point your NAMESERVER to the following Digital Ocean nameserver:
+1. In your domain registrar, point your NAMESERVER to the following Digital Ocean nameserver:
 
   ```
   ns1.digitalocean.com
@@ -53,5 +53,4 @@ If you are looking to have your email service hosted on cPanel while having your
   | MX   | company.com | mail handled by front-sci.com. | 14400          | 
   ```
 
-8. Go to your cPanel and create an **Addon Domain** for `company.com`. Now you should be able to use the email service provided in Cpanel while maintaining your main site in Digital Ocean. Register a new email account the test sending and receiving email with the email address you created. 
-
+8. Go to your cPanel and create an **Addon Domain** for `company.com`. Now you should be able to use the email service provided in Cpanel while maintaining your main site in Digital Ocean. Register a new email account the test sending and receiving emails with the email address you created. 
